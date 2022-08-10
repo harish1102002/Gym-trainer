@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="./register.css">
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+<script type="text/javascript">
+	function confirm() {
+		d=document.getElementsByTagName("input");
+		if(d[0].value.trim()!="" && d[1].value.trim()!="")
+		alert("Thanks for registering");
+	}
+</script>
+<div class="container py-4 min-vh-100 d-flex flex-column justify-content-center">
+    <div class="row">
+        <div class="col-xl-10 mx-auto">
+            <div class="card border-0 shadow">
+                <div class="row no-gutters justify-content-center">
+                    <div class="col-sm-6 text-center py-5">
+                        <h3 class="font-weight-bold">Register</h3>
+                        <div class="d-flex my-3 justify-content-center">
+                            <a href="#" class="mx-2 btn btn-light rounded-circle"><i class="mdi mdi-facebook"></i></a>
+                            <a href="#" class="mx-2 btn btn-light rounded-circle"><i class="mdi mdi-twitter"></i></a>
+                            <a href="#" class="mx-2 btn btn-light rounded-circle"><i class="mdi mdi-linkedin"></i></a>
+                        </div>
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="inputEmailForm" class="sr-only control-label">Email</label><br>
+                                <div class="col-8 col-sm-12 col-md-10 mx-auto">
+                                    <input type="text" class="form-control" 
+                                    id="inputEmailForm" placeholder="email" required="">
+                                    <div class="invalid-feedback">Oops, email is required</div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="inputPasswordForm" class="sr-only control-label">Name</label><br>
+                                <div class="col-8 col-sm-12 col-md-10 mx-auto">
+                                    <input type="text" class="form-control" 
+                                    id="inputPasswordForm" placeholder="name" required=""
+                                    autocomplete="no">
+                                    <div class="valid-feedback">Nice looks good!</div>
+                                    <div class="invalid-feedback">6 chars (1 upper, 1 lower &amp; numeric)</div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-group justify-content-center">
+                                <div class="pb-3 pt-2">
+                                    <button type="submit" class="btn btn-danger rounded-pill" onclick="confirm()">Sign-in</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-6 rounded text-white text-center">
+                        <div class="bg-danger rounded p-5 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h3 class="font-weight-bold">Hello, Friend!</h3>
+                            <p class="small my-3">Have a Great day Ahead!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
