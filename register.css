@@ -3,3 +3,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+.col{
+    border-radius: 20px;
+}

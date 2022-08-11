@@ -15,7 +15,7 @@ h2{
 .home{
     height: 60vh;
     margin-top: -3vh;
-    width: 100%;
+    width: 100vw;
     background-color: black;
     background-repeat: no-repeat;
     background-image: url("./images/main.jpg");
@@ -40,6 +40,7 @@ h2{
     border-radius: 20px;
     height: calc(280px - 10vw);
     border: 5px solid #c2a43b;
+    margin: 0.6vw;
     }
 a{
     text-decoration: none;
@@ -51,15 +52,28 @@ a{
 .clients{
     display: flex;
     height: 46vh;
-    width: 100%;
-    justify-content: space-between;
+    width: 100vw;
 }
 body{
     background-color: black;
 }
+.wrap{
+    overflow-x: hidden;
+}
+.exp{   
+ height: 70vw;
+ position: relative;
+ width: 100vw;
+}
+.im{
+    height: 70vw;
+    opacity: 0.7;
+    position: absolute;
+}
 button:hover{
     transform: scale(1.05);
 }
+
 button{
     color: #c2a43b;
     height: calc(9vh - 1vw);
@@ -70,4 +84,17 @@ button{
     border-color: #c2a43b;
     border-width: 5px;
     box-shadow: rgba(0, 0, 0, 0.4);
+}
+.p{
+    color: whitesmoke;
+    position: relative;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 4vw;
+    width: 95vw;
+}
+span{
+    font-size: 10vw;
+    font-style: initial;
+    color: white;
 }
