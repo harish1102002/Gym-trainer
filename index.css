@@ -60,10 +60,6 @@ body{
     background-color: black;
     overflow: hidden;
 }
-.wrap{
-    overflow-x: hidden;
-    overflow-y: visible;
-}
 .exp{   
  height: 70vw;
  position: relative;
