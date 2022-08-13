@@ -18,7 +18,7 @@ h2{
 .home{
     height: 60vh;
     margin-top: -3vh;
-    width: 99vw;
+    width: 98vw;
     background-color: black;
     background-repeat: no-repeat;
     background-image: url("./images/main.jpg");
@@ -61,19 +61,19 @@ a{
 .clients{
     display: flex;
     height: calc(400px - 10vw);
-    width: 99vw;
+    width: 98vw;
     overflow: hidden;
     
 }
 body{
     background-color: black;
     overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
+    overflow-y: visible !important;
 }
 .exp{   
  height: 70vw;
  position: relative;
- width: 99vw;
+ width: 98vw;
  overflow: hidden;
     
 }
