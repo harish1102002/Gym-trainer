@@ -3,6 +3,7 @@
     width: 200px;
     top: 0px;
     margin-left: 8px;
+
 }
 .ban{
     background-color: black;
@@ -20,7 +21,6 @@ h2{
     background-image: url("./images/main.jpg");
     background-size: cover;
     justify-items: center;
-    overflow: hidden;
 }
 .heading{
     color: #c2a43b;
@@ -38,10 +38,9 @@ h2{
     -webkit-font-smoothing: antialiased;
     padding: 4vw;
     border-radius: 20px;
-    height: calc(270px - 10vw);
+    height: calc(280px - 10vw);
     border: 5px solid #c2a43b;
     margin: 0.6vw;
-    overflow: hidden;
     }
 a{
     text-decoration: none;
@@ -52,9 +51,8 @@ a{
 }
 .clients{
     display: flex;
-    height: calc(400px - 10vw);
+    height: 46vh;
     width: 100vw;
-    overflow: hidden;
 }
 body{
     background-color: black;
@@ -66,7 +64,6 @@ body{
  height: 70vw;
  position: relative;
  width: 100vw;
- overflow: hidden;
 }
 .im{
     height: 70vw;
@@ -86,7 +83,6 @@ button{
     border-radius: 20px;
     border-color: #c2a43b;
     border-width: 5px;
-    margin-top: 5px;
     box-shadow: rgba(0, 0, 0, 0.4);
 }
 .p{
@@ -94,7 +90,7 @@ button{
     position: relative;
     font-weight: bold;
     font-style: italic;
-    font-size: 3vw;
+    font-size: 4vw;
     width: 95vw;
 }
 span{
