@@ -60,7 +60,7 @@ body{
     background-color: black;
     heigth: 100%;
     width: 100%;
-    overflow-y: auto;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 .wrap{
@@ -90,11 +90,7 @@ button{
     border-radius: 20px;
     border-color: #c2a43b;
     border-width: 5px;
-<<<<<<< HEAD
     margin-top: 5px;
-=======
-    margin-top:5px
->>>>>>> dcb54b3706ecd7cd847928afd9b0c30488bfaa7e
     box-shadow: rgba(0, 0, 0, 0.4);
 }
 .p{
