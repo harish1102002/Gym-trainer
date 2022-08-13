@@ -70,6 +70,9 @@ body{
     overflow-x: hidden;
     overflow-y: visible !important;
 }
+.wrap{
+    overflow-x: hidden;
+}
 .exp{   
  height: 70vw;
  position: relative;
@@ -89,14 +92,14 @@ button:hover{
 
 button{
     color: #c2a43b;
-    height: calc(10vh - 1vw);
+    height: calc(12vh - 1vw);
     width: 33vw;
     font-size: 20px;
     background-color: black;
     border-radius: 20px;
     border-color: #c2a43b;
     border-width: 5px;
-    margin-top: 5px;
+    margin-top: 1px;
     padding: 1vw;
     box-shadow: rgba(0, 0, 0, 0.4);
 }
