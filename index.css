@@ -68,7 +68,7 @@ a{
 body{
     background-color: black;
     overflow-x: hidden;
-    -webkit-overflow-scrolling: auto;
+    -webkit-overflow-scrolling: touch;
 }
 .exp{   
  height: 70vw;
