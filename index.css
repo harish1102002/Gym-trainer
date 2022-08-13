@@ -83,6 +83,7 @@ button{
     border-radius: 20px;
     border-color: #c2a43b;
     border-width: 5px;
+    margin-top:5px
     box-shadow: rgba(0, 0, 0, 0.4);
 }
 .p{
