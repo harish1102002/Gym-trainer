@@ -3,31 +3,38 @@
     width: 200px;
     top: 0px;
     margin-left: 8px;
+    
 }
 .ban{
     background-color: black;
+    
+    width: 95vw;
 }
 h2{
     color: white;
     padding-left: 8vh;
+    
 }
 .home{
     height: 60vh;
     margin-top: -3vh;
-    width: 100vw;
+    width: 99vw;
     background-color: black;
     background-repeat: no-repeat;
     background-image: url("./images/main.jpg");
     background-size: cover;
     justify-items: center;
     overflow: hidden;
+    
 }
 .heading{
     color: #c2a43b;
     padding-top: 20vh;
+    
 }
 .para{
     text-align: left;
+    
 }
 .cli{
     color: white;
@@ -42,6 +49,7 @@ h2{
     border: 5px solid #c2a43b;
     margin: 0.6vw;
     overflow: hidden;
+    
     }
 a{
     text-decoration: none;
@@ -53,23 +61,27 @@ a{
 .clients{
     display: flex;
     height: calc(400px - 10vw);
-    width: 100vw;
+    width: 99vw;
     overflow: hidden;
+    
 }
 body{
     background-color: black;
-    overflow: hidden;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: auto;
 }
 .exp{   
  height: 70vw;
  position: relative;
- width: 100vw;
+ width: 99vw;
  overflow: hidden;
+    
 }
 .im{
     height: 70vw;
     opacity: 0.7;
     position: absolute;
+    
 }
 button:hover{
     transform: scale(1.05);
@@ -85,6 +97,7 @@ button{
     border-color: #c2a43b;
     border-width: 5px;
     margin-top: 5px;
+    padding: 1vw;
     box-shadow: rgba(0, 0, 0, 0.4);
 }
 .p{
@@ -94,9 +107,11 @@ button{
     font-style: italic;
     font-size: 3vw;
     width: 95vw;
+    
 }
 span{
     font-size: 10vw;
     font-style: initial;
     color: white;
+    
 }
