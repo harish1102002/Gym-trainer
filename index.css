@@ -70,9 +70,6 @@ body{
     overflow-x: hidden;
     overflow-y: visible !important;
 }
-.wrap{
-    overflow-x: hidden;
-}
 .exp{   
  height: 70vw;
  position: relative;
